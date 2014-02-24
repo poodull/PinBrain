@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{8C181F37-C5EF-4424-8AC6-384B16F5775F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log4Net", "Log4Net", "{AC21018A-9388-401C-900D-70CE8CEF5DD0}"
+	ProjectSection(SolutionItems) = preProject
+		DLL\Log4Net\log4net.dll = DLL\Log4Net\log4net.dll
+		DLL\Log4Net\log4net.xml = DLL\Log4Net\log4net.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LedWiz", "LedWiz", "{80C84BA9-F4AA-438D-8011-2B1BD3BD2ADF}"
+	ProjectSection(SolutionItems) = preProject
+		DLL\LedWiz\AxInterop.LEDWiz_Control.dll = DLL\LedWiz\AxInterop.LEDWiz_Control.dll
+		DLL\LedWiz\Interop.LEDWiz_Control.dll = DLL\LedWiz\Interop.LEDWiz_Control.dll
+		DLL\LedWiz\ledwizm05.ocx = DLL\LedWiz\ledwizm05.ocx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinBrain.Engine", "PinBrain.Engine\PinBrain.Engine.csproj", "{5B45C4C3-7AE2-4A19-9F6D-498A6A97FB51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinBrain.Library", "PinBrain.Library\PinBrain.Library.csproj", "{E649C893-2C71-4764-A1AF-AA0A7A64E746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinBrain.Devices", "PinBrain.Devices\PinBrain.Devices.csproj", "{27B9F7C9-1235-4FD0-BD0B-3DD9F2F76559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinBrain.Server", "PinBrain.Server\PinBrain.Server.csproj", "{FE0BDB23-93A1-4447-8A8E-AB74AA7F9082}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{9941CC1E-6B25-4032-ABDA-82FB5DD8555A}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionInfo.cs = SolutionInfo.cs
+		TODO.txt = TODO.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DirectX", "DirectX", "{54E5F343-233D-4E74-A079-3E069A34BBD8}"
+	ProjectSection(SolutionItems) = preProject
+		DLL\DirectX\Microsoft.DirectX.AudioVideoPlayback.dll = DLL\DirectX\Microsoft.DirectX.AudioVideoPlayback.dll
+		DLL\DirectX\Microsoft.DirectX.AudioVideoPlayback.xml = DLL\DirectX\Microsoft.DirectX.AudioVideoPlayback.xml
+		DLL\DirectX\SharpDX.Diagnostics.dll = DLL\DirectX\SharpDX.Diagnostics.dll
+		DLL\DirectX\SharpDX.Diagnostics.xml = DLL\DirectX\SharpDX.Diagnostics.xml
+		DLL\DirectX\SharpDX.DirectSound.dll = DLL\DirectX\SharpDX.DirectSound.dll
+		DLL\DirectX\SharpDX.DirectSound.xml = DLL\DirectX\SharpDX.DirectSound.xml
+		DLL\DirectX\SharpDX.dll = DLL\DirectX\SharpDX.dll
+		DLL\DirectX\SharpDX.xml = DLL\DirectX\SharpDX.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sounds", "Sounds", "{EB93D8E4-7586-445E-AE4F-DCBD1771C8B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SFX", "SFX", "{FDCD2D1C-1C90-4F7A-8CF4-53083F9905E8}"
+	ProjectSection(SolutionItems) = preProject
+		Sounds\SFX\dra_die.wav = Sounds\SFX\dra_die.wav
+		Sounds\SFX\elevtrbl.wav = Sounds\SFX\elevtrbl.wav
+		Sounds\SFX\Teleport.wav = Sounds\SFX\Teleport.wav
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Music", "Music", "{15136B08-8768-4AF1-A38D-0CEE464116ED}"
+	ProjectSection(SolutionItems) = preProject
+		Sounds\Music\CV2DayTrial6.wav = Sounds\Music\CV2DayTrial6.wav
+		Sounds\Music\hod_clocktower.mid = Sounds\Music\hod_clocktower.mid
+		Sounds\Music\StageIntro.wav = Sounds\Music\StageIntro.wav
+		Sounds\Music\StalkerRough1.wav = Sounds\Music\StalkerRough1.wav
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B45C4C3-7AE2-4A19-9F6D-498A6A97FB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B45C4C3-7AE2-4A19-9F6D-498A6A97FB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B45C4C3-7AE2-4A19-9F6D-498A6A97FB51}.Debug|x86.ActiveCfg = Debug|x86
+		{5B45C4C3-7AE2-4A19-9F6D-498A6A97FB51}.Debug|x86.Build.0 = Debug|x86
+		{5B45C4C3-7AE2-4A19-9F6D-498A6A97FB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B45C4C3-7AE2-4A19-9F6D-498A6A97FB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B45C4C3-7AE2-4A19-9F6D-498A6A97FB51}.Release|x86.ActiveCfg = Release|x86
+		{5B45C4C3-7AE2-4A19-9F6D-498A6A97FB51}.Release|x86.Build.0 = Release|x86
+		{E649C893-2C71-4764-A1AF-AA0A7A64E746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E649C893-2C71-4764-A1AF-AA0A7A64E746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E649C893-2C71-4764-A1AF-AA0A7A64E746}.Debug|x86.ActiveCfg = Debug|x86
+		{E649C893-2C71-4764-A1AF-AA0A7A64E746}.Debug|x86.Build.0 = Debug|x86
+		{E649C893-2C71-4764-A1AF-AA0A7A64E746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E649C893-2C71-4764-A1AF-AA0A7A64E746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E649C893-2C71-4764-A1AF-AA0A7A64E746}.Release|x86.ActiveCfg = Release|x86
+		{E649C893-2C71-4764-A1AF-AA0A7A64E746}.Release|x86.Build.0 = Release|x86
+		{27B9F7C9-1235-4FD0-BD0B-3DD9F2F76559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B9F7C9-1235-4FD0-BD0B-3DD9F2F76559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B9F7C9-1235-4FD0-BD0B-3DD9F2F76559}.Debug|x86.ActiveCfg = Debug|x86
+		{27B9F7C9-1235-4FD0-BD0B-3DD9F2F76559}.Debug|x86.Build.0 = Debug|x86
+		{27B9F7C9-1235-4FD0-BD0B-3DD9F2F76559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B9F7C9-1235-4FD0-BD0B-3DD9F2F76559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B9F7C9-1235-4FD0-BD0B-3DD9F2F76559}.Release|x86.ActiveCfg = Release|x86
+		{27B9F7C9-1235-4FD0-BD0B-3DD9F2F76559}.Release|x86.Build.0 = Release|x86
+		{FE0BDB23-93A1-4447-8A8E-AB74AA7F9082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0BDB23-93A1-4447-8A8E-AB74AA7F9082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0BDB23-93A1-4447-8A8E-AB74AA7F9082}.Debug|x86.ActiveCfg = Debug|x86
+		{FE0BDB23-93A1-4447-8A8E-AB74AA7F9082}.Debug|x86.Build.0 = Debug|x86
+		{FE0BDB23-93A1-4447-8A8E-AB74AA7F9082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0BDB23-93A1-4447-8A8E-AB74AA7F9082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE0BDB23-93A1-4447-8A8E-AB74AA7F9082}.Release|x86.ActiveCfg = Release|x86
+		{FE0BDB23-93A1-4447-8A8E-AB74AA7F9082}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC21018A-9388-401C-900D-70CE8CEF5DD0} = {8C181F37-C5EF-4424-8AC6-384B16F5775F}
+		{80C84BA9-F4AA-438D-8011-2B1BD3BD2ADF} = {8C181F37-C5EF-4424-8AC6-384B16F5775F}
+		{54E5F343-233D-4E74-A079-3E069A34BBD8} = {8C181F37-C5EF-4424-8AC6-384B16F5775F}
+		{FDCD2D1C-1C90-4F7A-8CF4-53083F9905E8} = {EB93D8E4-7586-445E-AE4F-DCBD1771C8B5}
+		{15136B08-8768-4AF1-A38D-0CEE464116ED} = {EB93D8E4-7586-445E-AE4F-DCBD1771C8B5}
+	EndGlobalSection
+EndGlobal

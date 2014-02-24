@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="PinBrain.Engine.Managers.PlayerStatus">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AIABEGwAAAIgRIgAQAVADQIACBAABAhUwAgEwAQgAII=</HashCode>
+      <FileName>Managers\PlayerStatus.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_levelIndex" />
+      <Field Name="_playerCharacter" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_players" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PinBrain.Engine.Managers.GameManager">
+    <Position X="10" Y="0.5" Width="4" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PinBrain.Engine.Managers.GameManager.AttractMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Managers\GameManager.AttractMode.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="PinBrain.Engine.Managers.GameManager.NormalPlayMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Managers\GameManager.NormalPlayMode.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="PinBrain.Engine.Managers.GameManager.TestMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Managers\GameManager.TestMode.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>GFCUCgEsEAAABEGAQECQEVADBAAsAAQBBCgIKAAiEYA=</HashCode>
+      <FileName>Managers\GameManager.AttractMode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_inputMode" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="PinBrain.Library.Levels">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="PinBrain.Library.Feature.Characters">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="PinBrain.Engine.Managers.InputMode">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAgBAAAAAICAAABAA=</HashCode>
+      <FileName>Managers\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

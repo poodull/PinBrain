@@ -1,0 +1,98 @@
+
+**************************************************************************************
+THE LAST THING I TOUCHED:
+**************************************************************************************
+Week of 10/15/12
+- Fixed Items for sound
+- Fixed CMM.swf for bonus multiplier and magic icon
+- playing around with lighting effects enums idea... not sure i like it.
+
+Week of 10/22/12
+- Moved Switch handling to SwitchManager and assigned Actions from Modes.
+- Added TrophyRoomMode to handle the captured ball and timed trophy bonus.
+- Added Ball Search movie and ball check at the start of a game.
+- I broke normal play once a player gets to trophy room(mode).
+- Flash: Attract change STARTPRESSED API command to GOTOTITLE.
+- Flash: Attract now loops to Title n times before going back to start.
+- Flash: Attract Left/Right goes to Title/HighScores.
+
+Week of 11/05/12
+- Put timing logic into Trophy mode.
+- Added SwitchManager.RotateCross.
+Week of 11/30/12
+- Testing speed while reading serial
+- Why isn't zombie death sound working?!?!
+
+Work on Trophy Mode next. It's not done.
+Or Fixing End of ball so it doesn't rely on the trough being full.
+Or Extracting Character Select from Normal Play mode.
+Or Moving Trophy mode to Boss mode (which contains trophy) and prepping multiball
+**************************************************************************************
+
+
+
+
+**************************************************************************************
+NEW IDEAS:
+**************************************************************************************
+Flash work:
+- Attract needs "CREDITS {0}" in PRESS START screen
+    - if CREDITS == 0 PRESS START should read INSERT COIN
+    - if CREDITS == -1 CREDITS {0} should read FREE PLAY
+- Trophy needs timer countdown animation to put the ball in the CenterScoop
+
+WARP:
+- I need a command line GOD mode.  One thing I'll need a lot of is the ability to warp
+to a specific level.  like WARP 5:2 will send me to level 5, room 2.  More useful will
+be WARP 5:B for boss room.  
+    - This feature, if paired with an animation, could be a merchant award.
+
+TEST
+- It would be useful to allow TEST mode to load a new maze like Boss attack or Ball Lock
+that allows for easy testing of a mode or feature while using the actual game logic.
+
+STACKING MODES
+- I need to be able to stack modes so that switches can be handled properly based on a mode
+that is active and animations work as they should.  An example would be mulitball into 
+Boss mode.  Perhaps I can allow for a list of sub modes in NormalPlay and before any switch
+is handled, it's passed to this submode with a 'Handled' return flag.  That way only one
+sub mode handles the switch, while Normal Mode is still the only thing registered on 
+Switch Manager.  this would hopefully eliminate GameManager.CurrentInputMode
+**************************************************************************************
+
+
+
+
+
+**************************************************************************************
+BROKEN/DEFFERRED
+**************************************************************************************
+Boss battle?
+
+If you die and restart a room, the award is regenerated.  is that ok?  light lock?
+
+Trough Manager is crap.  Particularly how it handles balls on field and balldrains
+**************************************************************************************
+
+
+
+
+
+**************************************************************************************
+WHAT I'M WORKING ON NOW/LAST:
+**************************************************************************************
+IN GAME:
+- Player object extracted from PlayerStatus.  PlayerStatus -> PlayerManager. (10/18/12 10% halted for now.. rather complex)
+- Trophy Mode needs to handle ball loss and timer.  (10/22/12 40%)
+
+
+RANDOM THOUGHTS:
+- Maybe PlayerStatus should have derrived types based on the chosen player... so that the logic for each player is contained in the derrived class.
+    - that way playerStatus is more like PlayerManager which contains an array of players
+    - need a fast, threadsafe way to get playerbase data into a playerstatus bean.
+
+- How do I handle game adjustments?  It's hard enough switched based on character type, but to also account for adjustments per feature?
+    - especially for something like timers (complete ITEM withing x seconds?)
+
+-Do I need to abstract a MotorManager and interface incase the SolenoidArduino can't handle extra pins?
+**************************************************************************************
