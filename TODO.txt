@@ -2,6 +2,10 @@
 **************************************************************************************
 THE LAST THING I TOUCHED:
 **************************************************************************************
+Week of 3/3/14
+- Ported to VS2013.
+- Submitted into Git @ https://github.com/poodull/PinBrain.git
+
 Week of 10/15/12
 - Fixed Items for sound
 - Fixed CMM.swf for bonus multiplier and magic icon

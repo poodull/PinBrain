@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{8C181F37-C5EF-4424-8AC6-384B16F5775F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log4Net", "Log4Net", "{AC21018A-9388-401C-900D-70CE8CEF5DD0}"
@@ -59,6 +61,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Music", "Music", "{15136B08
 		Sounds\Music\StalkerRough1.wav = Sounds\Music\StalkerRough1.wav
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flash", "Flash", "{2ED0A641-07F8-4125-9AFF-55A02EFB7431}"
+	ProjectSection(SolutionItems) = preProject
+		DLL\Flash\AttractMode.swf = DLL\Flash\AttractMode.swf
+		DLL\Flash\AxInterop.ShockwaveFlashObjects.dll = DLL\Flash\AxInterop.ShockwaveFlashObjects.dll
+		DLL\Flash\BallSearch.swf = DLL\Flash\BallSearch.swf
+		DLL\Flash\CharacterSelect.swf = DLL\Flash\CharacterSelect.swf
+		DLL\Flash\CMM.swf = DLL\Flash\CMM.swf
+		DLL\Flash\CollectBonus.swf = DLL\Flash\CollectBonus.swf
+		DLL\Flash\Form1.cs = DLL\Flash\Form1.cs
+		DLL\Flash\Interop.ShockwaveFlashObjects.dll = DLL\Flash\Interop.ShockwaveFlashObjects.dll
+		DLL\Flash\LevelMap.swf = DLL\Flash\LevelMap.swf
+		DLL\Flash\MerchantAward.swf = DLL\Flash\MerchantAward.swf
+		DLL\Flash\Multiball.Succubus.swf = DLL\Flash\Multiball.Succubus.swf
+		DLL\Flash\SpellBonusMovie.swf = DLL\Flash\SpellBonusMovie.swf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +125,7 @@ Global
 		{AC21018A-9388-401C-900D-70CE8CEF5DD0} = {8C181F37-C5EF-4424-8AC6-384B16F5775F}
 		{80C84BA9-F4AA-438D-8011-2B1BD3BD2ADF} = {8C181F37-C5EF-4424-8AC6-384B16F5775F}
 		{54E5F343-233D-4E74-A079-3E069A34BBD8} = {8C181F37-C5EF-4424-8AC6-384B16F5775F}
+		{2ED0A641-07F8-4125-9AFF-55A02EFB7431} = {8C181F37-C5EF-4424-8AC6-384B16F5775F}
 		{FDCD2D1C-1C90-4F7A-8CF4-53083F9905E8} = {EB93D8E4-7586-445E-AE4F-DCBD1771C8B5}
 		{15136B08-8768-4AF1-A38D-0CEE464116ED} = {EB93D8E4-7586-445E-AE4F-DCBD1771C8B5}
 	EndGlobalSection
